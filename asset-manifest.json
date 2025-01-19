@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pathforge/static/css/main.2ea16f99.css",
-    "main.js": "/pathforge/static/js/main.3792485d.js",
-    "static/js/936.a04d5521.chunk.js": "/pathforge/static/js/936.a04d5521.chunk.js",
-    "static/js/479.1a44185f.chunk.js": "/pathforge/static/js/479.1a44185f.chunk.js",
-    "static/js/439.95256b5d.chunk.js": "/pathforge/static/js/439.95256b5d.chunk.js",
-    "static/js/582.08ad2b67.chunk.js": "/pathforge/static/js/582.08ad2b67.chunk.js",
-    "static/js/990.b3c00482.chunk.js": "/pathforge/static/js/990.b3c00482.chunk.js",
-    "static/js/648.96e2cb5b.chunk.js": "/pathforge/static/js/648.96e2cb5b.chunk.js",
-    "index.html": "/pathforge/index.html",
-    "main.2ea16f99.css.map": "/pathforge/static/css/main.2ea16f99.css.map",
-    "main.3792485d.js.map": "/pathforge/static/js/main.3792485d.js.map",
-    "936.a04d5521.chunk.js.map": "/pathforge/static/js/936.a04d5521.chunk.js.map",
-    "479.1a44185f.chunk.js.map": "/pathforge/static/js/479.1a44185f.chunk.js.map",
-    "439.95256b5d.chunk.js.map": "/pathforge/static/js/439.95256b5d.chunk.js.map",
-    "582.08ad2b67.chunk.js.map": "/pathforge/static/js/582.08ad2b67.chunk.js.map",
-    "990.b3c00482.chunk.js.map": "/pathforge/static/js/990.b3c00482.chunk.js.map",
-    "648.96e2cb5b.chunk.js.map": "/pathforge/static/js/648.96e2cb5b.chunk.js.map"
+    "main.css": "/PathForge/static/css/main.2ea16f99.css",
+    "main.js": "/PathForge/static/js/main.c5818bfc.js",
+    "static/js/936.a04d5521.chunk.js": "/PathForge/static/js/936.a04d5521.chunk.js",
+    "static/js/479.1a44185f.chunk.js": "/PathForge/static/js/479.1a44185f.chunk.js",
+    "static/js/439.95256b5d.chunk.js": "/PathForge/static/js/439.95256b5d.chunk.js",
+    "static/js/582.08ad2b67.chunk.js": "/PathForge/static/js/582.08ad2b67.chunk.js",
+    "static/js/990.b3c00482.chunk.js": "/PathForge/static/js/990.b3c00482.chunk.js",
+    "static/js/648.96e2cb5b.chunk.js": "/PathForge/static/js/648.96e2cb5b.chunk.js",
+    "index.html": "/PathForge/index.html",
+    "main.2ea16f99.css.map": "/PathForge/static/css/main.2ea16f99.css.map",
+    "main.c5818bfc.js.map": "/PathForge/static/js/main.c5818bfc.js.map",
+    "936.a04d5521.chunk.js.map": "/PathForge/static/js/936.a04d5521.chunk.js.map",
+    "479.1a44185f.chunk.js.map": "/PathForge/static/js/479.1a44185f.chunk.js.map",
+    "439.95256b5d.chunk.js.map": "/PathForge/static/js/439.95256b5d.chunk.js.map",
+    "582.08ad2b67.chunk.js.map": "/PathForge/static/js/582.08ad2b67.chunk.js.map",
+    "990.b3c00482.chunk.js.map": "/PathForge/static/js/990.b3c00482.chunk.js.map",
+    "648.96e2cb5b.chunk.js.map": "/PathForge/static/js/648.96e2cb5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ea16f99.css",
-    "static/js/main.3792485d.js"
+    "static/js/main.c5818bfc.js"
   ]
 }
