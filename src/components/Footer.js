@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa"; 
+import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -60,7 +60,7 @@ const Footer = () => {
                   href="mailto:support@pathforge.com"
                   className="text-sm text-gray-300 hover:text-accent transition duration-300"
                 >
-                  support@pathforge.com
+                  haseebraza715@gmail.com
                 </a>
               </li>
               <li>
@@ -68,7 +68,7 @@ const Footer = () => {
                   href="tel:+1234567890"
                   className="text-sm text-gray-300 hover:text-accent transition duration-300"
                 >
-                  +1 (234) 567-890
+                  +92 343 4739789
                 </a>
               </li>
             </ul>
@@ -79,7 +79,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-accent mb-4">Follow Us</h3>
             <div className="flex justify-center md:justify-end space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/haseebraza715"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -88,7 +88,7 @@ const Footer = () => {
                 <FaGithub className="w-6 h-6" />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://twitter.com/haseebraza715"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
@@ -97,7 +97,7 @@ const Footer = () => {
                 <FaTwitter className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/haseeb-raza-00a845231/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -106,7 +106,7 @@ const Footer = () => {
                 <FaLinkedin className="w-6 h-6" />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:haseeb.javed715@gmail.com"
                 aria-label="Email"
                 className="text-gray-300 hover:text-accent transition duration-300"
               >
