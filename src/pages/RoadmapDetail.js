@@ -6,7 +6,6 @@ const RoadmapDetail = () => {
   const navigate = useNavigate();
   const [roadmap, setRoadmap] = useState(null);
 
-  // Fetch the roadmap from local storage
   useEffect(() => {
     const fetchRoadmap = () => {
       try {
@@ -36,7 +35,6 @@ const RoadmapDetail = () => {
     );
   }
 
-  // Calculate progress percentage
   const completedMilestones = roadmap.milestones.filter(
     (m) => m.completed
   ).length;

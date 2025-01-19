@@ -67,16 +67,13 @@ const CreateRoadmap = () => {
     }
   };
 
-  // Validate form
   const validateForm = () => {
     const newErrors = {};
 
-    // Validate title
     if (!title.trim()) {
       newErrors.title = "Title is required.";
     }
 
-    // Validate milestones
     milestones.forEach((milestone, index) => {
       if (!milestone.title.trim()) {
         newErrors[`milestone-${index}`] = "Milestone cannot be empty.";
@@ -87,16 +84,15 @@ const CreateRoadmap = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Handle saving the roadmap
   const handleSave = () => {
     if (!validateForm()) {
       return;
     }
 
     const newRoadmap = {
-      id: new Date().getTime().toString(), // Unique ID for the roadmap
+      id: new Date().getTime().toString(), 
       title,
-      milestones: milestones.filter((m) => m.title.trim() !== ""), // Exclude empty milestones
+      milestones: milestones.filter((m) => m.title.trim() !== ""), 
     };
 
     const savedRoadmaps = JSON.parse(localStorage.getItem("roadmaps")) || [];

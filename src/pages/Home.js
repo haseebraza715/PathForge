@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaRoad, FaChartLine, FaGlobe } from "react-icons/fa"; // Icons for features
+import { FaRoad, FaChartLine, FaGlobe } from "react-icons/fa";
 
 const Home = () => {
   return (

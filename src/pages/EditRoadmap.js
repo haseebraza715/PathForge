@@ -22,7 +22,6 @@ const EditRoadmap = () => {
   const [milestones, setMilestones] = useState([]);
   const [errors, setErrors] = useState({});
 
-  // Fetch the roadmap from local storage
   useEffect(() => {
     const savedRoadmaps = JSON.parse(localStorage.getItem("roadmaps")) || [];
     const roadmap = savedRoadmaps.find((r) => r.id === id);
@@ -36,13 +35,11 @@ const EditRoadmap = () => {
     }
   }, [id, navigate]);
 
-  // Sensors for drag-and-drop interactions
   const sensors = useSensors(
     useSensor(PointerSensor),
     useSensor(KeyboardSensor)
   );
 
-  // Handle drag end
   const handleDragEnd = (event) => {
     const { active, over } = event;
 
@@ -54,7 +51,6 @@ const EditRoadmap = () => {
     }
   };
 
-  // Remove a milestone
   const handleRemoveMilestone = (id) => {
     const updatedMilestones = milestones.filter(
       (milestone) => milestone.id !== id
@@ -62,7 +58,6 @@ const EditRoadmap = () => {
     setMilestones(updatedMilestones);
   };
 
-  // Update a milestone title
   const handleUpdateMilestone = (id, newTitle) => {
     const updatedMilestones = milestones.map((milestone) =>
       milestone.id === id ? { ...milestone, title: newTitle } : milestone
@@ -70,16 +65,13 @@ const EditRoadmap = () => {
     setMilestones(updatedMilestones);
   };
 
-  // Validate form
   const validateForm = () => {
     const newErrors = {};
 
-    // Validate title
     if (!title.trim()) {
       newErrors.title = "Title is required.";
     }
 
-    // Validate milestones
     milestones.forEach((milestone, index) => {
       if (!milestone.title.trim()) {
         newErrors[`milestone-${index}`] = "Milestone cannot be empty.";
@@ -90,7 +82,6 @@ const EditRoadmap = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Save the updated roadmap
   const handleSave = () => {
     if (!validateForm()) {
       return;

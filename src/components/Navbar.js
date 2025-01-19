@@ -5,17 +5,14 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
-  // Toggle mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Close mobile menu when a link is clicked
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
 
-  // Check if a route is active
   const isActive = (path) => {
     return location.pathname === path;
   };

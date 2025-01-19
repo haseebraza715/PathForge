@@ -20,17 +20,15 @@ export const SortableItem = ({
     transition,
   };
 
-  // Handle milestone title change
   const handleTitleChange = (e) => {
     const newTitle = e.target.value;
     setMilestoneTitle(newTitle);
-    onUpdate(id, newTitle); // Update the milestone title in the parent component
+    onUpdate(id, newTitle);
   };
 
-  // Handle remove milestone
   const handleRemove = (e) => {
-    e.stopPropagation(); // Stop the drag gesture from being triggered
-    onRemove(id); // Call the parent's remove function
+    e.stopPropagation(); 
+    onRemove(id); 
   };
 
   return (

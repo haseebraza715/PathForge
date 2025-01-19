@@ -5,7 +5,7 @@ const Dashboard = () => {
   const [roadmaps, setRoadmaps] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Fetch roadmaps from local storage
+  
   useEffect(() => {
     const fetchRoadmaps = () => {
       try {
@@ -19,7 +19,7 @@ const Dashboard = () => {
     fetchRoadmaps();
   }, []);
 
-  // Handle roadmap deletion
+ 
   const handleDelete = (id) => {
     try {
       const updatedRoadmaps = roadmaps.filter((roadmap) => roadmap.id !== id);
@@ -30,7 +30,7 @@ const Dashboard = () => {
     }
   };
 
-  // Filter roadmaps based on search query
+  
   const filteredRoadmaps = roadmaps.filter((roadmap) =>
     roadmap.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
